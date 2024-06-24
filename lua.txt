@@ -130,7 +130,7 @@ function Library:Window(options)
     Body.BackgroundColor3 = Color3.fromRGB(0, 38, 77)
     Body.BorderSizePixel = 0
     Body.Position = UDim2.new(0.465730786, 0, 0.5, 0)
-    Body.Size = UDim2.new(0, 658, 0, 516)
+    Body.Size = UDim2.new(0, 558, 0, 513)
 
     bodyCorner.CornerRadius = UDim.new(0, 4)
     bodyCorner.Name = "bodyCorner"
@@ -140,7 +140,7 @@ function Library:Window(options)
     SideBar.Parent = Body
     SideBar.BackgroundColor3 = Color3.fromRGB(26, 36, 48)
     SideBar.BorderSizePixel = 0
-    SideBar.Size = UDim2.new(0, 187, 0, 516)
+    SideBar.Size = UDim2.new(0, 187, 0, 513)
 
     sidebarCorner.CornerRadius = UDim.new(0, 4)
     sidebarCorner.Name = "sidebarCorner"
@@ -321,7 +321,7 @@ function Library:Window(options)
             tabIcon.Position = UDim2.new(0.0408859849, 0, 0.133333355, 0)
             tabIcon.Size = UDim2.new(0, 21, 0, 21)
             tabIcon.Image = options.icon
-            tabIcon.ImageColor3 = Color3.fromRGB(43, 154, 198)
+            tabIcon.ImageColor3 = Color3.fromRGB(51, 102, 255)
 
             newPage.Name = "newPage"
             newPage.Parent = allPages
@@ -837,7 +837,7 @@ function Library:Window(options)
                     textBox.AnchorPoint = Vector2.new(0.5, 0.5)
                     textBox.BackgroundColor3 = Color3.fromRGB(1, 7, 17)
                     textBox.Position = UDim2.new(0.850000024, 0, 0.5, 0)
-                    textBox.Size = UDim2.new(0, 53, 0, 15)
+                    textBox.Size = UDim2.new(0, 106, 0, 30)
                     textBox.Font = Enum.Font.Gotham
                     textBox.Text = options.value
                     textBox.TextColor3 = Color3.fromRGB(234, 239, 245)
