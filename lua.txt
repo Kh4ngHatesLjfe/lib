@@ -467,7 +467,7 @@ title_3.BackgroundTransparency = 1.000
 title_3.Position = UDim2.new(0.161097407, 0, -0.000307376496, 0)
 title_3.Size = UDim2.new(0, 200, 0, 22)
 title_3.Font = Enum.Font.SourceSans
-title_3.Text = "Synapse X Remake - Script Hub"
+title_3.Text = "iWare - Script Hub"
 title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 title_3.TextSize = 16.000
 title_3.ZIndex = 110
@@ -799,7 +799,7 @@ while true do
             descri.Text = ""
         end
         if scriptselected == "dex" then
-            descri.Text = "A version of the popular Dex explorer with patches specifically for Synapse X Remake."
+            descri.Text = "A version of the popular Dex explorer."
         end
         if scriptselected == "esp" then
             descri.Text = "ESP Made by ic3w0lf using the Drawing API."
