@@ -75,9 +75,9 @@ local function buttoneffect(options)
             end
         end)
         options.entered.MouseLeave:Connect(function()
-            if options.frame.TextColor3 ~= Color3.fromRGB(157, 171, 182) and options.frame.TextColor3 ~= Color3.fromRGB(234, 239, 246) then
+            if options.frame.TextColor3 ~= Color3.fromRGB(0, 89, 179) and options.frame.TextColor3 ~= Color3.fromRGB(0, 89, 179) then
                 TweenService:Create(options.frame, TweenInfo.new(0.06, Enum.EasingStyle.Quart, Enum.EasingDirection.In), {
-                    TextColor3 = Color3.fromRGB(157, 171, 182)
+                    TextColor3 = Color3.fromRGB(0, 89, 179)
                 }):Play()
             end
         end)
@@ -127,7 +127,7 @@ function Library:Window(options)
     Body.Name = "Body"
     Body.Parent = SG
     Body.AnchorPoint = Vector2.new(0.5, 0.5)
-    Body.BackgroundColor3 = Color3.fromRGB(9, 8, 13)
+    Body.BackgroundColor3 = Color3.fromRGB(0, 38, 77)
     Body.BorderSizePixel = 0
     Body.Position = UDim2.new(0.465730786, 0, 0.5, 0)
     Body.Size = UDim2.new(0, 658, 0, 516)
